@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import pandas as pd
-import seaborn as sns
 #enlace al dataset: https://www.kaggle.com/datasets/pradeepjangirml007/laptop-data-set
 """
 Este dataset contiene especificaciones detalladas de 3.976 portátiles de diversas marcas. 
