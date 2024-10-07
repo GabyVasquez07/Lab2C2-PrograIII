@@ -16,7 +16,7 @@ df = pd.read_csv('social-media.csv')
 likesedad= df.groupby('Age')['TotalLikes'].sum().reset_index()
 
 # Creamos el gráfico de líneas
-plt.figure(figsize=(12, 6))
+plt.figure(figsize=(12, 6))                         #Utilizamos 'o' como marcador del gráfico de líneas y el color de las  líneas como celeste.
 plt.plot(likesedad['Age'], likesedad['TotalLikes'], marker='o', color='skyblue')
 
 # Añadimos el título y etiquetas
@@ -30,3 +30,13 @@ plt.tight_layout()
 # Mostramos el gráfico
 plt.grid()  # Agregamos una cuadrícula, esto para mejor legibilidad
 plt.show()
+
+"""
+Análisis:
+En este dataset, representamos el total de likes por edad en las redes sociales,
+mostrando en el eje y, el total de likes y en el eje x las edades. Y de acuerdo con el gráfico,
+podemos concluir que las edades que comprenden entre los 18 y 20 años son las que más dan likes,
+estando estos entre el rango de los 20 y 40 likes, y por contraparte, las personas en edades de
+60 años no tienden a dar like a las publicaciones.
+
+"""

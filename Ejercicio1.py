@@ -23,3 +23,11 @@ plt.pie(fr.values, labels=fr.index, autopct="%1.1f%%",colors=colores)
 plt.title("Frecuencia de Entrenamiento (dias a la semana)")#titulo
 
 plt.show()
+
+"""
+Análisis:
+En el gráfico se puede observar en porcentajes la cantidad de dias qué suelen entrenar 
+a la semana las personas, podemos observar que la mayoría entrena 4 días a la semana 
+y muy pocos entrenan 5 días a la semana, mientras que casi el 37.8% entrena 3 días a la semana 
+y el 20.2% entrena 2 días a la semana
+"""

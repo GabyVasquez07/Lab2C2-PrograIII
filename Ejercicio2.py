@@ -33,3 +33,12 @@ plt.tight_layout()
 # Mostramos gráfico
 plt.show()
 
+"""
+Análisis:
+En este dataset, contamos con diferentes marcas de laptops, y cada marca con sus respectivas
+características de las laptops, en este gráfico lo que hacemos es mostrar cúantas laptops hay
+de cada marca en el dataset, utilizamos métodos como value_counts() para contar las laptops de cada marca
+y podemos asumir que, la marca ASUS es la que posee más laptops en este dataset, y las que menos 
+laptops poseen serían las marcas de Zebronics, Wings, Colorful, Realme y así de forma descendiente hasta llegar a 0.
+"""
+
