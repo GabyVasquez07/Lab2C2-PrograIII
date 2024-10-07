@@ -28,5 +28,5 @@ plt.ylabel('Total de Likes', fontsize=12)
 plt.tight_layout()
 
 # Mostramos el gráfico
-plt.grid()  # Agregamos una cuadrícula para mejor legibilidad
+plt.grid()  # Agregamos una cuadrícula, esto para mejor legibilidad
 plt.show()
